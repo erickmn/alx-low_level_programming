@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc -S -masm=intel "$cfile" -o "${cfile%.c}.s"
-
+gcc -S -masm=intel $CFILE
